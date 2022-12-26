@@ -1,0 +1,23 @@
+{
+    "train_data":{
+    "ticker": "KRW-BTC",
+    "time_interval": "min1",
+    "start": "20201010",
+    "end": "20201012"
+    },
+    "validation_data":{
+        "ticker": "KRW-BTC",
+        "time_interval": "min1",
+        "start": "20201013",
+        "end": "20201015"
+    },
+    "test_data":{
+        "ticker": "KRW-BTC",
+        "time_interval": "min1",
+        "start": "20201013",
+        "end": "20201015"
+    },
+    "tech_indicator_list": ["high_5_sma", "high_5_mstd", "vwma_5", "high", "low", "boll", "boll_ub", "boll_lb"]
+    
+    
+}
